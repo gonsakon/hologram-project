@@ -1,0 +1,66 @@
+//doc
+  ---
+  title: 按鈕(Buttons)
+  name: button
+  category: 基本樣式
+  ---
+  能夠使用`<button>` 與 `<a>` 元素:
+
+  ```html_example
+  <button class="btn btnDefault">Click</button>
+  <a class="btn btnDefault" href="http://trulia.com">Don't click</a>
+  ```
+  <h2>按鈕尺寸</h2>
+  
+
+  按鈕 | class名稱
+  ----- | ----
+  <button class="btn btnDefault btnLrg">大</button>              | `btn btnDefault btnLrg`
+  <button class="btn btnDefault">預設</button>                    | `btn btnDefault`
+  <button class="btn btnDefault btnSml">小</button>              | `btn btnDefault btnSml`
+  <button class="btn btnDefault btnFullWidth">滿版</button>       | `btn btnDefault btnFullWidth`
+
+
+.btn
+  padding: .5em 1em
+  margin: 0
+  display: inline-block
+  font-weight: normal
+  line-height: normal
+  font-size: 14px
+  font-size: 0.875rem
+  text-decoration: none
+  cursor: pointer
+  border: 0
+  background: none
+  text-align: center
+  border: 1px solid #cccccc
+  -webkit-border-radius: 4px
+  -moz-border-radius: 4px
+  -ms-border-radius: 4px
+  -o-border-radius: 4px
+  border-radius: 4px
+  
+
+// Button sizes
+.btnSml
+  font-size: 10px
+  font-size: 0.625rem
+  -webkit-border-radius: 4px
+  -moz-border-radius: 4px
+  -ms-border-radius: 4px
+  -o-border-radius: 4px
+  border-radius: 4px
+
+.btnLrg
+  font-size: 16px
+  font-size: 1rem
+  line-height: 1.6
+  -webkit-border-radius: 4px
+  -moz-border-radius: 4px
+  -ms-border-radius: 4px
+  -o-border-radius: 4px
+  border-radius: 4px
+
+.btnFullWidth
+  width: 100%
